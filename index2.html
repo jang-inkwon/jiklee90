@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지클리90 투자 대시보드</title>
+    <style>
+        body { font-family: 'Pretendard', sans-serif; background-color: #f4f7f6; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .dashboard { background: white; padding: 2rem; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); text-align: center; max-width: 500px; width: 90%; }
+        h1 { color: #333; margin-bottom: 1.5rem; font-size: 1.5rem; }
+        .menu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .menu-item { background: #e9ecef; padding: 15px; border-radius: 12px; text-decoration: none; color: #495057; font-weight: bold; transition: 0.3s; border: 1px solid #dee2e6; }
+        .menu-item:hover { background: #339af0; color: white; transform: translateY(-3px); }
+        .full-width { grid-column: span 2; background: #343a40; color: white; }
+        .footer { margin-top: 20px; font-size: 0.8rem; color: #adb5bd; }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <h1>📊 지클리90 투자 대시보드</h1>
+        <div class="menu-grid">
+            <a href="#" class="menu-item full-width">🏠 메인 대시보드</a>
+            <a href="#" class="menu-item">📝 DAILY 투자일기</a>
+            <a href="#" class="menu-item">🔍 WEEKLY 점검</a>
+            <a href="#" class="menu-item">⚖️ MONTHLY 리밸런싱</a>
+            <a href="#" class="menu-item">📈 PORTFOLIO</a>
+            <a href="#" class="menu-item full-width">⚠️ 규칙 위반 로그</a>
+        </div>
+        <div class="footer">지한님의 정직한 투자를 응원합니다 - 카론</div>
+    </div>
+</body>
+</html>
